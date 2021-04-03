@@ -1,12 +1,12 @@
 {
-  "name": "aria",
-  "title": "Aria",
-  "description": "<p>Système Foundry VTT pour Aria le jeu de role de FibreTigre edité par Elder Craft.</p>",
-  "version": "0.6.4",
+  "name": "louis-verse",
+  "title": "Louis Universe",
+  "description": "<p>Système Foundry VTT basé sur Aria de FibreTigre et modifié par loulou123546.</p>",
+  "version": "0.7.0",
   "minimumCoreVersion": "0.7.3",
   "compatibleCoreVersion": "0.7.9",
   "templateVersion": 2,
-  "author": "Dilomos/Jonathan BERNARD",
+  "author": "Dilomos - loulou123546",
   "esmodules": [
     "module/aria.js",
     "module/hooks/system-ready.js",
@@ -20,7 +20,7 @@
     {
       "name": "competences",
       "label": "Compétences",
-      "system": "aria",
+      "system": "louis-verse",
       "path": "./packs/competences.db",
       "entity": "Item",
       "tag" : "competence"
@@ -28,7 +28,7 @@
     {
       "name": "competencesspepretire",
       "label": "Compétences spéciales prétirés",
-      "system": "aria",
+      "system": "louis-verse",
       "path": "./packs/competencesspepretire.db",
       "entity": "Item",
       "tag" : "competencesspepretire"
@@ -36,7 +36,7 @@
     {
       "name": "competencesspeexception",
       "label": "Compétences spéciales exceptions",
-      "system": "aria",
+      "system": "louis-verse",
       "path": "./packs/competencesspeexception.db",
       "entity": "Item",
       "tag" : "competencesspeexception"
@@ -44,7 +44,7 @@
     {
       "name": "accessoires",
       "label": "Accessoires",
-      "system": "aria",
+      "system": "louis-verse",
       "path": "./packs/accessoires.db",
       "entity": "Item",
       "tag" : "accessoires"
@@ -52,7 +52,7 @@
     {
       "name": "arme",
       "label": "Armes",
-      "system": "aria",
+      "system": "louis-verse",
       "path": "./packs/armes.db",
       "entity": "Item",
       "tag" : "armes"
@@ -60,7 +60,7 @@
     {
       "name": "armesdist",
       "label": "Armes à distance",
-      "system": "aria",
+      "system": "louis-verse",
       "path": "./packs/armes_distance.db",
       "entity": "Item",
       "tag" : "armes"
@@ -68,7 +68,7 @@
     {
       "name": "armure",
       "label": "Armures",
-      "system": "aria",
+      "system": "louis-verse",
       "path": "./packs/armures.db",
       "entity": "Item",
       "tag" : "armures"
@@ -76,7 +76,7 @@
     {
       "name": "vetement",
       "label": "Vêtements",
-      "system": "aria",
+      "system": "louis-verse",
       "path": "./packs/vetements.db",
       "entity": "Item",
       "tag" : "vetements"
@@ -84,7 +84,7 @@
     {
       "name": "nourriture",
       "label": "Nourriture",
-      "system": "aria",
+      "system": "louis-verse",
       "path": "./packs/nourritures.db",
       "entity": "Item",
       "tag" : "nourritures"
@@ -92,7 +92,7 @@
     {
       "name": "deplacement",
       "label": "Déplacements",
-      "system": "aria",
+      "system": "louis-verse",
       "path": "./packs/deplacements.db",
       "entity": "Item",
       "tag" : "deplacements"
@@ -100,7 +100,7 @@
     {
       "name": "professions",
       "label": "Professions",
-      "system": "aria",
+      "system": "louis-verse",
       "path": "./packs/professions.db",
       "entity": "Item",
       "tag" : "profession"
@@ -108,7 +108,7 @@
     {
       "name": "professionsactualplay",
       "label": "Professions de l'Actual Play",
-      "system": "aria",
+      "system": "louis-verse",
       "path": "./packs/professionsactualplay.db",
       "entity": "Item",
       "tag" : "professionsactualplay"
@@ -116,7 +116,7 @@
     {
       "name": "professionsexceptions",
       "label": "Professions des personnages d'exception",
-      "system": "aria",
+      "system": "louis-verse",
       "path": "./packs/professionsexceptions.db",
       "entity": "Item",
       "tag" : "professionsexceptions"
@@ -124,7 +124,7 @@
     {
       "name": "origines",
       "label": "Origines",
-      "system": "aria",
+      "system": "louis-verse",
       "path": "./packs/origines.db",
       "entity": "Item",
       "tag" : "origines"
@@ -146,9 +146,9 @@
   "gridDistance": 1.5,
   "gridUnits": "m",
   "primaryTokenAttribute": "attributes.hp",
-  "secondaryTokenAttribute": null,
-  "url": "https://github.com/Dilomos/aria_foundryvtt",
-  "manifest": "https://raw.githubusercontent.com/Dilomos/aria_foundryvtt/main/system.json",
-  "download": "https://github.com/Dilomos/aria_foundryvtt/archive/v0.6.4.zip",
+  "secondaryTokenAttribute": "attributes.mana",
+  "url": "https://github.com/loulou123546/Louisverse-foundryvtt",
+  "manifest": "https://raw.githubusercontent.com/loulou123546/Louisverse-foundryvtt/main/system.json",
+  "download": "https://github.com/loulou123546/Louisverse-foundryvtt/archive/v0.7.0.zip",
   "license": "licence.txt"
 }

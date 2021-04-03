@@ -2,7 +2,9 @@
   "Actor": {
     "types": [
       "character",
-      "npc"
+      "allies",
+      "npc",
+      "ennemi"
     ],
     "templates": {
       "stats": {
@@ -58,10 +60,10 @@
             "value": 0,
             "max": 0
           },
-          "def": {
-            "key" : "def",
-            "label" : "ARIA.attributes.def.label",
-            "abbrev" : "ARIA.attributes.def.abbrev",
+          "mana": {
+            "key" : "mana",
+            "label" : "ARIA.attributes.mana.label",
+            "abbrev" : "ARIA.attributes.mana.abbrev",
             "base": 10,
             "bonus": 0,
             "value": 10
@@ -73,6 +75,30 @@
             "base": 0,
             "bonus": 0,
             "value": 0
+          },
+          "init": {
+            "key" : "init",
+            "label" : "ARIA.attributes.init.label",
+            "abbrev" : "ARIA.attributes.init.abbrev",
+            "base": 10,
+            "bonus": 0,
+            "value": 10
+          },
+          "xp": {
+            "key" : "xp",
+            "label" : "ARIA.attributes.xp.label",
+            "abbrev" : "ARIA.attributes.xp.abbrev",
+            "base": 0,
+            "bonus": 0,
+            "value": 0
+          },
+          "def": {
+            "key" : "def",
+            "label" : "ARIA.attributes.def.label",
+            "abbrev" : "ARIA.attributes.def.abbrev",
+            "base": 10,
+            "bonus": 0,
+            "value": 10
           }
         },
         "currency": {

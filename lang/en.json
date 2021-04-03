@@ -147,6 +147,8 @@
   "ARIA.attributes.init.abbrev": "INIT",
   "ARIA.attributes.def.label": "Defence",
   "ARIA.attributes.def.abbrev": "DEF",
+  "ARIA.attributes.mana.label": "Mana",
+  "ARIA.attributes.mana.abbrev": "MANA",
   "ARIA.attributes.nc.label": "Creature Level",
   "ARIA.attributes.nc.abbrev": "CL",
   "ARIA.attributes.hd.label": "Hit Dice",
